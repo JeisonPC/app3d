@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @cotization %>
+
+<div>
+  <%= link_to "Edit this cotization", edit_cotization_path(@cotization) %> |
+  <%= link_to "Back to cotizations", cotizations_path %>
+
+  <%= button_to "Destroy this cotization", @cotization, method: :delete %>
+</div>
